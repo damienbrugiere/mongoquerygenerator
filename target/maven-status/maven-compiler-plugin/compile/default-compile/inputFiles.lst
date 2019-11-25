@@ -1,0 +1,17 @@
+C:\devTools\defaultWorkspace\mongoquerygenerator\src\main\java\com\dbrugiere\mongoquerygenerator\logicOperators\AndLogicOperator.java
+C:\devTools\defaultWorkspace\mongoquerygenerator\src\main\java\com\dbrugiere\mongoquerygenerator\composite\QueryLeaf.java
+C:\devTools\defaultWorkspace\mongoquerygenerator\src\main\java\com\dbrugiere\mongoquerygenerator\operators\GtOperator.java
+C:\devTools\defaultWorkspace\mongoquerygenerator\src\main\java\com\dbrugiere\mongoquerygenerator\operators\Operator.java
+C:\devTools\defaultWorkspace\mongoquerygenerator\src\main\java\com\dbrugiere\mongoquerygenerator\composite\QueryComposite.java
+C:\devTools\defaultWorkspace\mongoquerygenerator\src\main\java\com\dbrugiere\mongoquerygenerator\logicOperators\LogicalOperator.java
+C:\devTools\defaultWorkspace\mongoquerygenerator\src\main\java\com\dbrugiere\mongoquerygenerator\logicOperators\OrLogicOperator.java
+C:\devTools\defaultWorkspace\mongoquerygenerator\src\main\java\com\dbrugiere\mongoquerygenerator\operators\NotEquals.java
+C:\devTools\defaultWorkspace\mongoquerygenerator\src\main\java\com\dbrugiere\mongoquerygenerator\operators\StartWithOperator.java
+C:\devTools\defaultWorkspace\mongoquerygenerator\src\main\java\com\dbrugiere\mongoquerygenerator\composite\QueryBuilder.java
+C:\devTools\defaultWorkspace\mongoquerygenerator\src\main\java\com\dbrugiere\mongoquerygenerator\operators\LteOperator.java
+C:\devTools\defaultWorkspace\mongoquerygenerator\src\main\java\com\dbrugiere\mongoquerygenerator\exceptions\BuilderException.java
+C:\devTools\defaultWorkspace\mongoquerygenerator\src\main\java\com\dbrugiere\mongoquerygenerator\operators\CiOperator.java
+C:\devTools\defaultWorkspace\mongoquerygenerator\src\main\java\com\dbrugiere\mongoquerygenerator\operators\LtOperator.java
+C:\devTools\defaultWorkspace\mongoquerygenerator\src\main\java\com\dbrugiere\mongoquerygenerator\operators\GteOperator.java
+C:\devTools\defaultWorkspace\mongoquerygenerator\src\main\java\com\dbrugiere\mongoquerygenerator\operators\EqOperator.java
+C:\devTools\defaultWorkspace\mongoquerygenerator\src\main\java\com\dbrugiere\mongoquerygenerator\composite\Composant.java

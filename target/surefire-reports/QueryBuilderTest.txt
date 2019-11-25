@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: QueryBuilderTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.256 s <<< FAILURE! - in QueryBuilderTest
+shouldBuildComplexeQuery(QueryBuilderTest)  Time elapsed: 0.196 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...{ "tr" : "ggg" }] }][, { "tyyyty" : "12" }, { "dgdgd" : "ggg" }] }] }"> but was:<...{ "tr" : "ggg" }] }][] }] }">
+	at QueryBuilderTest.shouldBuildComplexeQuery(QueryBuilderTest.java:42)
+

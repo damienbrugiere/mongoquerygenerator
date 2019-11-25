@@ -35,11 +35,17 @@ public class QueryBuilderTest {
         CriteriaDefinition criteria = new QueryBuilder("or[field1=test&field2=tutu&field3=tyty]").build().getQuery();
         Assertions.assertThat(criteria.getCriteriaObject().toJson()).isEqualTo("{ \"$or\" : [{ \"field1\" : \"test\" }, { \"field2\" : \"tutu\" }, { \"field3\" : \"tyty\" }] }");
     }
-
+// a corriger pas de and dans le or
     @Test
     public void shouldBuildComplexeQuery(){
         CriteriaDefinition criteria = new QueryBuilder("and(or[t=12&tr=ggg]&tyyyty=1&dgdgd=2)").build().getQuery();
-        Assertions.assertThat(criteria.getCriteriaObject().toJson()).isEqualTo("{ \"$and\" : [{ \"$or\" : [{ \"$and\" : [{ \"t\" : \"12\" }, { \"tr\" : \"ggg\" }] }], { \"tyyyty\" : \"12\" }, { \"dgdgd\" : \"ggg\" } }] }");
+        Assertions.assertThat(criteria.getCriteriaObject().toJson()).isEqualTo("{ \"$and\" : [{ \"$or\" : [{ \"t\" : \"12\" }, { \"tr\" : \"ggg\" }] }, { \"tyyyty\" : \"1\" }, { \"dgdgd\" : \"2\" }] }");
+    }
+
+    @Test
+    public void shouldBuildComplexeQuery2(){
+        CriteriaDefinition criteria = new QueryBuilder("tyyyty=1&dgdgd=2&or[and(t=12&tr=ggg)and(ty=5&te=8)]").build().getQuery();
+        Assertions.assertThat(criteria.getCriteriaObject().toJson()).isEqualTo("{ \"$and\" : [{ \"tyyyty\" : \"1\" }, { \"dgdgd\" : \"2\" }, { \"$or\" : [{ \"$and\" : [{ \"t\" : \"12\" }, { \"tr\" : \"ggg\" }] }, { \"$and\" : [{ \"ty\" : \"5\" }, { \"te\" : \"8\" }] }] }] }");
     }
 
 }

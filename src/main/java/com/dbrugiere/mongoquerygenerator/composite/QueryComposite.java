@@ -5,6 +5,7 @@ import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.CriteriaDefinition;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
 
 public class QueryComposite implements Composant {
@@ -24,6 +25,18 @@ public class QueryComposite implements Composant {
     public void addChildren(Composant composant){
         if(composant != null){
             this.children.add(composant);
+        }
+    }
+
+    public void addChildren(Composant... composants){
+        if(composants != null){
+            this.children.addAll(Arrays.asList(composants));
+        }
+    }
+
+    public void addAllChildren(Collection<Composant> composants){
+        if(composants != null){
+            this.children.addAll(composants);
         }
     }
 
