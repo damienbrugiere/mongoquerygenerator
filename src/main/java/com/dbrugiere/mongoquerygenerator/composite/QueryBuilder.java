@@ -6,7 +6,12 @@ import com.dbrugiere.mongoquerygenerator.logicOperators.LogicalOperator;
 import com.dbrugiere.mongoquerygenerator.logicOperators.OrLogicOperator;
 import com.dbrugiere.mongoquerygenerator.operators.EqOperator;
 import com.dbrugiere.mongoquerygenerator.operators.Operator;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.CriteriaDefinition;
+import org.springframework.data.mongodb.core.query.Query;
+import org.springframework.data.mongodb.core.query.TextCriteria;
+import org.springframework.data.mongodb.core.query.TextQuery;
 import org.springframework.util.StringUtils;
 
 import java.util.ArrayList;
@@ -18,7 +23,6 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 public class QueryBuilder {
-
   private String query;
 
   public QueryBuilder(String query) {
