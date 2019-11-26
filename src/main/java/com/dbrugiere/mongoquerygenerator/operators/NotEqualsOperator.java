@@ -4,9 +4,9 @@ import com.dbrugiere.mongoquerygenerator.composite.QueryLeaf;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.CriteriaDefinition;
 
-public class NotEquals extends Operator {
+public class NotEqualsOperator extends Operator {
 
-    public NotEquals(){
+    public NotEqualsOperator(){
         super("!=");
     }
 

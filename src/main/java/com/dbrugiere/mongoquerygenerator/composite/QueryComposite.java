@@ -7,6 +7,7 @@ import org.springframework.data.mongodb.core.query.CriteriaDefinition;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.List;
 
 public class QueryComposite implements Composant {
 
@@ -51,5 +52,10 @@ public class QueryComposite implements Composant {
         } else {
             return new Criteria().orOperator(this.children.stream().map(iterator -> iterator.getQuery()).toArray(size -> new Criteria[size]));
         }
+    }
+
+    @Override
+    public List<String> getValueToMatchInTextCriteria(Collection<String> field) {
+        return null;
     }
 }

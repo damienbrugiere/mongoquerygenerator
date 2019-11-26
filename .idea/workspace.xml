@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="407026d5-21e7-46a7-a32b-f1b95dd3e681" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/MongoQueryExcecutor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/QueryBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/QueryBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/MongoQueryExcecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/MongoQueryExcecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/Composant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/Composant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/QueryComposite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/QueryComposite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/QueryLeaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/QueryLeaf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/GteOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/GteOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/NotEquals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/NotEqualsOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dbrugiere/mongoquerygenerator/composite/Composant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dbrugiere/mongoquerygenerator/composite/Composant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dbrugiere/mongoquerygenerator/composite/QueryBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dbrugiere/mongoquerygenerator/composite/QueryBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dbrugiere/mongoquerygenerator/composite/QueryComposite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dbrugiere/mongoquerygenerator/composite/QueryComposite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dbrugiere/mongoquerygenerator/composite/QueryLeaf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dbrugiere/mongoquerygenerator/composite/QueryLeaf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dbrugiere/mongoquerygenerator/operators/GteOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dbrugiere/mongoquerygenerator/operators/GteOperator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dbrugiere/mongoquerygenerator/operators/NotEquals.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,98 +28,84 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/QueryBuilderTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/GtOperator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/QueryBuilder.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/GteOperator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+            <state relative-caret-position="153">
+              <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/Composant.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/EqOperator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+            <state relative-caret-position="170">
+              <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/CiOperator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/MongoQueryExcecutor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/2.0.8.RELEASE/spring-data-mongodb-2.0.8.RELEASE.jar!/org/springframework/data/mongodb/core/MongoTemplate.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/StartWithOperator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="141" column="94" selection-start-line="141" selection-start-column="94" selection-end-line="141" selection-end-column="94" />
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/QueryComposite.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/Operator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+            <state relative-caret-position="68">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/logicOperators/LogicalOperator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/NotEqualsOperator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            <state relative-caret-position="170">
+              <caret line="14" column="57" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/QueryLeaf.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/LtOperator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/LteOperator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23358">
-              <caret line="1433" selection-start-line="1433" selection-end-line="1433" />
-              <folding>
-                <element signature="e#55844#55845#0" expanded="true" />
-                <element signature="e#82616#82617#0" expanded="true" />
-                <element signature="e#82667#82668#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -120,6 +116,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -129,9 +126,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/QueryComposite.java" />
         <option value="$PROJECT_DIR$/src/test/java/QueryBuilderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/QueryBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/IMongoObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/GteOperator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/NotEqualsOperator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/Composant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/QueryLeaf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/QueryComposite.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/MongoQueryExcecutor.java" />
       </list>
     </option>
@@ -152,59 +154,94 @@
         <subPane>
           <expand>
             <path>
-              <item name="mongoquerygenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mongo-query-generator" type="b2602c69:ProjectViewProjectNode" />
               <item name="mongoquerygenerator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="mongoquerygenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mongoquerygenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mongoquerygenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mongo-query-generator" type="b2602c69:ProjectViewProjectNode" />
               <item name="mongoquerygenerator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="mongoquerygenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mongo-query-generator" type="b2602c69:ProjectViewProjectNode" />
               <item name="mongoquerygenerator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="mongoquerygenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mongo-query-generator" type="b2602c69:ProjectViewProjectNode" />
               <item name="mongoquerygenerator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mongo-query-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mongoquerygenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mongoquerygenerator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="mongoquerygenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mongo-query-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mongoquerygenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mongoquerygenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="composite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mongo-query-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mongoquerygenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mongoquerygenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mongo-query-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mongoquerygenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mongoquerygenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="operators" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mongo-query-generator" type="b2602c69:ProjectViewProjectNode" />
               <item name="mongoquerygenerator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="mongoquerygenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mongo-query-generator" type="b2602c69:ProjectViewProjectNode" />
               <item name="mongoquerygenerator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mongo-query-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mongoquerygenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574700956517" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574775305984" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.capture" />
   </component>
   <component name="RunDashboard">
@@ -224,7 +261,6 @@
       <module name="mongo-query-generator" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="QueryBuilderTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -293,9 +329,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QueryBuilderTest - 2019.11.25 at 17h 22m 23s.xml">
-      <configuration name="QueryBuilderTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="QueryBuilderTest_shouldBuildComplexeQuery2 - 2019.11.25 at 17h 26m 00s.xml">
       <configuration name="QueryBuilderTest.shouldBuildComplexeQuery2" configurationId="JUnit" />
     </history-entry>
@@ -323,12 +356,15 @@
     <history-entry file="QueryBuilderTest_shouldBuildComplexeQuery2 - 2019.11.25 at 17h 55m 26s.xml">
       <configuration name="QueryBuilderTest.shouldBuildComplexeQuery2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="QueryBuilderTest - 2019.11.26 at 12h 02m 41s.xml">
+      <configuration name="QueryBuilderTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21108742" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -337,8 +373,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32922733" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39977604" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32922733" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39977604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -420,18 +456,8 @@
     <entry file="jar://D:/jdk1.8.0_141/src.zip!/java/util/AbstractCollection.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/QueryBuilderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/QueryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+        <state relative-caret-position="367">
+          <caret line="46" column="50" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -439,20 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/Composant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/QueryComposite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -488,22 +500,264 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/MongoQueryExcecutor.java">
+    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_141/src.zip!/java/util/AbstractList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        <state relative-caret-position="183">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+          <folding>
+            <element signature="e#4990#4991#0" expanded="true" />
+            <element signature="e#5047#5048#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_141/src.zip!/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="343" selection-start-line="343" selection-end-line="343" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_141/src.zip!/java/util/regex/Matcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="535" selection-start-line="535" selection-end-line="535" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_141/src.zip!/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_141/src.zip!/java/lang/Double.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="536" column="75" selection-start-line="536" selection-start-column="54" selection-end-line="536" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/2.0.8.RELEASE/spring-data-mongodb-2.0.8.RELEASE.jar!/org/springframework/data/mongodb/core/query/TextCriteria.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/QueryLeaf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding>
+            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="e#1084#1085#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/QueryComposite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#2004#2005#0" expanded="true" />
+            <element signature="e#2031#2032#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/QueryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-775">
+          <caret line="37" column="40" lean-forward="true" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/IMongoObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/Composant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/MongoQueryExcecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_141/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="623" column="12" selection-start-line="623" selection-start-column="12" selection-end-line="623" selection-end-column="12" />
+          <folding>
+            <element signature="e#24298#24299#0" expanded="true" />
+            <element signature="e#24363#24364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/2.0.8.RELEASE/spring-data-mongodb-2.0.8.RELEASE.jar!/org/springframework/data/mongodb/core/query/Criteria.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="107" column="19" selection-start-line="107" selection-start-column="19" selection-end-line="107" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/CiOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/LteOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/GteOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/EqOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/GtOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/LtOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/NotEqualsOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/Operator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/StartWithOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>mongo-query-generator</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
