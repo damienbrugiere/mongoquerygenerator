@@ -1,4 +1,5 @@
 import com.dbrugiere.mongoquerygenerator.composite.QueryBuilder;
+import org.apache.commons.lang3.StringUtils;
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
 import org.springframework.data.mongodb.core.query.CriteriaDefinition;
@@ -46,6 +47,14 @@ public class QueryBuilderTest {
     public void shouldBuildComplexeQuery2(){
         CriteriaDefinition criteria = new QueryBuilder("tyyyty=1&dgdgd=2&or[and(t=12&tr=ggg)and(ty=5&te=8)]").build().getQuery();
         Assertions.assertThat(criteria.getCriteriaObject().toJson()).isEqualTo("{ \"$and\" : [{ \"tyyyty\" : \"1\" }, { \"dgdgd\" : \"2\" }, { \"$or\" : [{ \"$and\" : [{ \"t\" : \"12\" }, { \"tr\" : \"ggg\" }] }, { \"$and\" : [{ \"ty\" : \"5\" }, { \"te\" : \"8\" }] }] }] }");
+    }
+
+    @Test
+    public void shouldTest(){
+        String s = "and(or(t=12&tr=ggg)&tyyyty=1&dgdgd=2)";
+        String[] sub = StringUtils.substringsBetween(s,"and(",")");
+        System.out.println(sub);
+        Assertions.assertThat(sub).isEqualTo("or[t=12&tr=ggg]&tyyyty=1&dgdgd=2");
     }
 
 }

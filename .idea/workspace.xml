@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/FieldUtils.java" line="30" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="407026d5-21e7-46a7-a32b-f1b95dd3e681" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/FieldUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/annotations/QueryObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/dbrugiere/mongoquerygenerator/FieldUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/MongoQueryExcecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/MongoQueryExcecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/Composant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/Composant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/QueryComposite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/QueryComposite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/QueryLeaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/QueryLeaf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/GteOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/GteOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/NotEquals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/NotEqualsOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dbrugiere/mongoquerygenerator/composite/Composant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dbrugiere/mongoquerygenerator/composite/Composant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/QueryBuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QueryBuilderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/dbrugiere/mongoquerygenerator/composite/QueryBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dbrugiere/mongoquerygenerator/composite/QueryBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dbrugiere/mongoquerygenerator/composite/QueryComposite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dbrugiere/mongoquerygenerator/composite/QueryComposite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dbrugiere/mongoquerygenerator/composite/QueryLeaf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dbrugiere/mongoquerygenerator/composite/QueryLeaf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dbrugiere/mongoquerygenerator/operators/GteOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dbrugiere/mongoquerygenerator/operators/GteOperator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dbrugiere/mongoquerygenerator/operators/NotEquals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/QueryBuilderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/QueryBuilderTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,88 +23,99 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/GtOperator.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/QueryBuilderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/GteOperator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/EqOperator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/CiOperator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="538">
+              <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/StartWithOperator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/FieldUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="320">
+              <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/Operator.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="306">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/NotEqualsOperator.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/dbrugiere/mongoquerygenerator/FieldUtilsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" column="57" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="57" />
+            <state relative-caret-position="334">
+              <caret line="96" column="16" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/LtOperator.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/HashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="190">
+              <caret line="337" selection-start-line="337" selection-end-line="337" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/LteOperator.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/AbstractCollection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="198">
+              <caret line="343" column="16" selection-start-line="343" selection-start-column="16" selection-end-line="343" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/HashSet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="118" column="8" selection-start-line="118" selection-start-column="8" selection-end-line="118" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Class.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="1398" column="41" selection-start-line="1398" selection-start-column="41" selection-end-line="1398" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/annotations/QueryObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,8 +125,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -126,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/QueryBuilderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/QueryBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/IMongoObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/operators/GteOperator.java" />
@@ -135,14 +145,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/QueryLeaf.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/QueryComposite.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/MongoQueryExcecutor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/QueryBuilderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/annotations/QueryObject.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dbrugiere/mongoquerygenerator/FieldUtilsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/FieldUtils.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="268" />
     <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -150,6 +165,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,6 +206,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mongoquerygenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="annotations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mongo-query-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mongoquerygenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mongoquerygenerator" type="462c0819:PsiDirectoryNode" />
               <item name="composite" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -200,6 +225,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mongoquerygenerator" type="462c0819:PsiDirectoryNode" />
               <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mongo-query-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mongoquerygenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mongoquerygenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="logicOperators" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mongo-query-generator" type="b2602c69:ProjectViewProjectNode" />
@@ -226,23 +260,35 @@
             <path>
               <item name="mongo-query-generator" type="b2602c69:ProjectViewProjectNode" />
               <item name="mongoquerygenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mongoquerygenerator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574775305984" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.capture" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.dbrugiere.mongoquerygenerator" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -256,50 +302,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QueryBuilderTest">
-    <configuration name="QueryBuilderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mongo-query-generator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QueryBuilderTest" />
+  <component name="RunManager" selected="JUnit.FieldUtilsTest">
+    <configuration name="FieldUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mongoquerygenerator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dbrugiere.mongoquerygenerator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dbrugiere.mongoquerygenerator" />
+      <option name="MAIN_CLASS_NAME" value="com.dbrugiere.mongoquerygenerator.FieldUtilsTest" />
+      <option name="METHOD_NAME" value="shouldGetAllFieldWithNestedObject" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueryBuilderTest.shouldBuildComplexeQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mongo-query-generator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QueryBuilderTest" />
-      <option name="METHOD_NAME" value="shouldBuildComplexeQuery" />
+    <configuration name="FieldUtilsTest.shouldGetAllFieldFromComplexObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mongoquerygenerator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dbrugiere.mongoquerygenerator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dbrugiere.mongoquerygenerator" />
+      <option name="MAIN_CLASS_NAME" value="com.dbrugiere.mongoquerygenerator.FieldUtilsTest" />
+      <option name="METHOD_NAME" value="shouldGetAllFieldFromComplexObject" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueryBuilderTest.shouldBuildComplexeQuery2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mongo-query-generator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QueryBuilderTest" />
-      <option name="METHOD_NAME" value="shouldBuildComplexeQuery2" />
+    <configuration name="FieldUtilsTest.shouldGetAllFieldFromComplexObjectOther" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mongoquerygenerator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dbrugiere.mongoquerygenerator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dbrugiere.mongoquerygenerator" />
+      <option name="MAIN_CLASS_NAME" value="com.dbrugiere.mongoquerygenerator.FieldUtilsTest" />
+      <option name="METHOD_NAME" value="shouldGetAllFieldFromComplexObjectOther" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueryBuilderTest.shouldCreateTripleCriteriaWithAnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mongo-query-generator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QueryBuilderTest" />
-      <option name="METHOD_NAME" value="shouldCreateTripleCriteriaWithAnd" />
+    <configuration name="FieldUtilsTest.shouldGetAllFieldWithNestedObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mongoquerygenerator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dbrugiere.mongoquerygenerator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dbrugiere.mongoquerygenerator" />
+      <option name="MAIN_CLASS_NAME" value="com.dbrugiere.mongoquerygenerator.FieldUtilsTest" />
+      <option name="METHOD_NAME" value="shouldGetAllFieldWithNestedObject" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueryBuilderTest.shouldCreateTripleCriteriaWithOr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mongo-query-generator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QueryBuilderTest" />
-      <option name="METHOD_NAME" value="shouldCreateTripleCriteriaWithOr" />
+    <configuration name="FieldUtilsTest.shouldGetAllMotherAndChildrenFields" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mongoquerygenerator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dbrugiere.mongoquerygenerator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dbrugiere.mongoquerygenerator" />
+      <option name="MAIN_CLASS_NAME" value="com.dbrugiere.mongoquerygenerator.FieldUtilsTest" />
+      <option name="METHOD_NAME" value="shouldGetAllMotherAndChildrenFields" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -307,11 +385,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.QueryBuilderTest" />
-        <item itemvalue="JUnit.QueryBuilderTest.shouldBuildComplexeQuery2" />
-        <item itemvalue="JUnit.QueryBuilderTest.shouldBuildComplexeQuery" />
-        <item itemvalue="JUnit.QueryBuilderTest.shouldCreateTripleCriteriaWithOr" />
-        <item itemvalue="JUnit.QueryBuilderTest.shouldCreateTripleCriteriaWithAnd" />
+        <item itemvalue="JUnit.FieldUtilsTest" />
+        <item itemvalue="JUnit.FieldUtilsTest.shouldGetAllMotherAndChildrenFields" />
+        <item itemvalue="JUnit.FieldUtilsTest.shouldGetAllFieldFromComplexObjectOther" />
+        <item itemvalue="JUnit.FieldUtilsTest.shouldGetAllFieldFromComplexObject" />
+        <item itemvalue="JUnit.FieldUtilsTest.shouldGetAllFieldWithNestedObject" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +398,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cc66de32-decb-4023-9eb9-12fe0bb9cca1" name="Default Changelist" comment="" />
+      <changelist id="407026d5-21e7-46a7-a32b-f1b95dd3e681" name="Default Changelist" comment="" />
       <created>1574674516205</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -329,42 +407,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QueryBuilderTest_shouldBuildComplexeQuery2 - 2019.11.25 at 17h 26m 00s.xml">
-      <configuration name="QueryBuilderTest.shouldBuildComplexeQuery2" configurationId="JUnit" />
+    <history-entry file="FieldUtilsTest - 2019.11.30 at 00h 45m 08s.xml">
+      <configuration name="FieldUtilsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryBuilderTest_shouldBuildComplexeQuery2 - 2019.11.25 at 17h 29m 43s.xml">
-      <configuration name="QueryBuilderTest.shouldBuildComplexeQuery2" configurationId="JUnit" />
+    <history-entry file="FieldUtilsTest_shouldGetAllMotherAndChildrenFields - 2019.11.30 at 00h 56m 25s.xml">
+      <configuration name="FieldUtilsTest.shouldGetAllMotherAndChildrenFields" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryBuilderTest_shouldBuildComplexeQuery2 - 2019.11.25 at 17h 37m 37s.xml">
-      <configuration name="QueryBuilderTest.shouldBuildComplexeQuery2" configurationId="JUnit" />
+    <history-entry file="FieldUtilsTest_shouldGetAllMotherAndChildrenFields - 2019.11.30 at 00h 56m 48s.xml">
+      <configuration name="FieldUtilsTest.shouldGetAllMotherAndChildrenFields" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryBuilderTest_shouldBuildComplexeQuery2 - 2019.11.25 at 17h 48m 24s.xml">
-      <configuration name="QueryBuilderTest.shouldBuildComplexeQuery2" configurationId="JUnit" />
+    <history-entry file="FieldUtilsTest - 2019.11.30 at 01h 11m 12s.xml">
+      <configuration name="FieldUtilsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryBuilderTest_shouldBuildComplexeQuery2 - 2019.11.25 at 17h 49m 34s.xml">
-      <configuration name="QueryBuilderTest.shouldBuildComplexeQuery2" configurationId="JUnit" />
+    <history-entry file="FieldUtilsTest_shouldGetAllMotherAndChildrenFields - 2019.11.30 at 01h 12m 20s.xml">
+      <configuration name="FieldUtilsTest.shouldGetAllMotherAndChildrenFields" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryBuilderTest_shouldBuildComplexeQuery2 - 2019.11.25 at 17h 52m 19s.xml">
-      <configuration name="QueryBuilderTest.shouldBuildComplexeQuery2" configurationId="JUnit" />
+    <history-entry file="FieldUtilsTest_shouldGetAllMotherAndChildrenFields - 2019.11.30 at 01h 13m 35s.xml">
+      <configuration name="FieldUtilsTest.shouldGetAllMotherAndChildrenFields" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryBuilderTest_shouldBuildComplexeQuery2 - 2019.11.25 at 17h 52m 58s.xml">
-      <configuration name="QueryBuilderTest.shouldBuildComplexeQuery2" configurationId="JUnit" />
+    <history-entry file="FieldUtilsTest_shouldGetAllMotherAndChildrenFields - 2019.11.30 at 01h 15m 52s.xml">
+      <configuration name="FieldUtilsTest.shouldGetAllMotherAndChildrenFields" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryBuilderTest_shouldBuildComplexeQuery2 - 2019.11.25 at 17h 53m 24s.xml">
-      <configuration name="QueryBuilderTest.shouldBuildComplexeQuery2" configurationId="JUnit" />
+    <history-entry file="FieldUtilsTest - 2019.11.30 at 01h 19m 26s.xml">
+      <configuration name="FieldUtilsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryBuilderTest_shouldBuildComplexeQuery2 - 2019.11.25 at 17h 55m 26s.xml">
-      <configuration name="QueryBuilderTest.shouldBuildComplexeQuery2" configurationId="JUnit" />
+    <history-entry file="FieldUtilsTest - 2019.11.30 at 01h 19m 37s.xml">
+      <configuration name="FieldUtilsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryBuilderTest - 2019.11.26 at 12h 02m 41s.xml">
-      <configuration name="QueryBuilderTest" configurationId="JUnit" />
+    <history-entry file="FieldUtilsTest - 2019.11.30 at 01h 20m 11s.xml">
+      <configuration name="FieldUtilsTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21748401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -373,15 +450,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32922733" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39977604" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32922733" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32827735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -437,6 +514,66 @@
           <properties />
           <option name="timeStamp" value="90" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/QueryBuilderTest.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/QueryBuilderTest.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/FieldUtils.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/FieldUtils.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/FieldUtils.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/FieldUtils.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/FieldUtils.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/FieldUtils.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/FieldUtils.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/FieldUtils.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -444,23 +581,16 @@
         <watch expression="(orIndex &gt; andIndex &amp;&amp; orIndex &gt; separatorIndex)" />
         <watch expression="(andIndex &gt; orIndex &amp;&amp; andIndex &gt; separatorIndex)" />
         <watch expression=" string.indexOf(&quot;or[&quot;)" />
+        <watch expression="field.isAnnotationPresent(QueryObject.class)" />
+        <watch expression="field.getType().isAnnotationPresent(QueryObject.class)" />
+        <watch expression="clazz.getCanonicalName()" />
+        <watch expression="reflections.getSubTypesOf(clazz)" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://D:/jdk1.8.0_141/src.zip!/java/util/Collection.java" />
     <entry file="jar://D:/jdk1.8.0_141/src.zip!/java/lang/String.java" />
-    <entry file="jar://D:/jdk1.8.0_141/src.zip!/java/util/Objects.java" />
-    <entry file="jar://D:/jdk1.8.0_141/src.zip!/java/util/regex/Matcher.java" />
-    <entry file="jar://D:/jdk1.8.0_141/src.zip!/java/util/AbstractList.java" />
-    <entry file="jar://D:/jdk1.8.0_141/src.zip!/java/util/AbstractCollection.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/QueryBuilderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="46" column="50" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/exceptions/BuilderException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -500,45 +630,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_141/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
-          <folding>
-            <element signature="e#4990#4991#0" expanded="true" />
-            <element signature="e#5047#5048#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_141/src.zip!/java/util/AbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="343" selection-start-line="343" selection-end-line="343" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_141/src.zip!/java/util/regex/Matcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="535" selection-start-line="535" selection-end-line="535" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_141/src.zip!/java/util/Objects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="202" selection-start-line="202" selection-end-line="202" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_141/src.zip!/java/lang/Double.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="536" column="75" selection-start-line="536" selection-start-column="54" selection-end-line="536" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/jdk1.8.0_141/src.zip!/java/util/AbstractList.java" />
+    <entry file="jar://D:/jdk1.8.0_141/src.zip!/java/util/AbstractCollection.java" />
+    <entry file="jar://D:/jdk1.8.0_141/src.zip!/java/util/regex/Matcher.java" />
+    <entry file="jar://D:/jdk1.8.0_141/src.zip!/java/util/Objects.java" />
+    <entry file="jar://D:/jdk1.8.0_141/src.zip!/java/lang/Double.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/2.0.8.RELEASE/spring-data-mongodb-2.0.8.RELEASE.jar!/org/springframework/data/mongodb/core/query/TextCriteria.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -568,20 +664,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/QueryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-775">
-          <caret line="37" column="40" lean-forward="true" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/IMongoObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/IMongoObject.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/Composant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -599,17 +682,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_141/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="623" column="12" selection-start-line="623" selection-start-column="12" selection-end-line="623" selection-end-column="12" />
-          <folding>
-            <element signature="e#24298#24299#0" expanded="true" />
-            <element signature="e#24363#24364#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/jdk1.8.0_141/src.zip!/java/util/HashMap.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/2.0.8.RELEASE/spring-data-mongodb-2.0.8.RELEASE.jar!/org/springframework/data/mongodb/core/query/Criteria.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -677,6 +750,137 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar!/org/apache/commons/lang3/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="947" column="45" selection-start-line="947" selection-start-column="39" selection-end-line="947" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/composite/QueryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32215">
+          <caret line="1966" selection-start-line="1966" selection-end-line="1966" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="153" column="25" selection-start-line="153" selection-start-column="24" selection-end-line="153" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/The Difference Between map() and flatMap() - Baeldunghttps---www.baeldung.com › java-difference-map-and-f..-.url">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="62" column="6" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
+          <folding>
+            <element signature="e#6809#6810#0" expanded="true" />
+            <element signature="e#6836#6837#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="1398" column="41" selection-start-line="1398" selection-start-column="41" selection-end-line="1398" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="337" selection-start-line="337" selection-end-line="337" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="343" column="16" selection-start-line="343" selection-start-column="16" selection-end-line="343" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="118" column="8" selection-start-line="118" selection-start-column="8" selection-end-line="118" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/QueryBuilderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/reflections/reflections/0.9.11/reflections-0.9.11.jar!/org/reflections/Reflections.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="347" column="39" selection-start-line="347" selection-start-column="39" selection-end-line="347" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dbrugiere/mongoquerygenerator/FieldUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="96" column="16" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/annotations/QueryObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dbrugiere/mongoquerygenerator/FieldUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
